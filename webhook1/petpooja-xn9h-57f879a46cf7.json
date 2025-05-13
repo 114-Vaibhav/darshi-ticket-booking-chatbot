@@ -1,13 +1,3 @@
 {
-  "type": "service_account",
-  "project_id": "petpooja-xn9h",
-  "private_key_id": "57f879a46cf76dd8a9a4f471e933265c8e83d3d9",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCUrsbRSN0IYZos\nTvyVxuezO/wEAnQ4uZji7A9N4PyPquXMW2ML9I0vWwZyxhMdxU6yZ+atS9O2TIaB\nQTKLv+J2C4TPoFutLdc0R6KmJOnvTj4R84kMC2+LPUzASoKQey+M7O6rAXy3NbeB\nSGD/2vSaOrzKn+EpEb1UGGvBN8PcweyZGqDsxtRucYe1h5My8Z/sicROe8cvqjN+\ny3Clg5zB0hnEoED8F8XtF2QO5QXGsCT5zYX1JX9YtyvuTOzXX3sK9flqJ1njZYgG\n/7Q2TRhiiv0deif9mcg7tH8oZf+pYBEX8f8AQ5Da8crbQo+sVZeGTagpH5NzxS2s\n7DvielRjAgMBAAECggEAQxJE5gw0iZ9d6TcIgphj1Vrt6PEidKRk75kFnmAsDrNN\nTs66852yQvaRBh2MahWj1p9AVFSsgMQsuQosPxaklhPEKdVxBcJ0HkVifgiQ7z8g\niQCPhjtyaiGRCf2SwJKRdMU9NS9Kj2tQCKYZ+9FOHnT4zX8qF1jFS7ZohZUeaerx\nMJ0+aTMPuTY4lZb4a76iswrAX0fLjRGE59k0+Ws4awW7m3t57u54KFj3Zo/lRQqj\nV2KhJByrf9a/XHtVKlJo2uuZigDFo62QFJlQKeBn8yIvCqx4B1YHQuijROpK6Om0\n0mPyRG5JhuxyRuSXnUncF/8FRmOqOLm76c1vZ9aFAQKBgQDJXg0/krcJDujdXy9p\nR/s+OqsagbIKkitUzNIiCEljz4sFgFZ84g0EvUUEvMN+JETIa7qWfX92idjBiGJK\nBu3S7DizkZ6F1K4PWDpCuWzrLQmJp74KoGuj8JccfLnodWpMelanqrN8ICpanW7q\nbRIlcJISfYm+cVdiGGgCgWJ3YQKBgQC9BYR4QpmSQT6YtXXvFMbxWngBTzGfVvdI\n4SpYdoB8BK+OLW+Tul808/W0ODG05YLyIincQUDUS15NIwJ8hr2fRrTIaZKz8gJ/\nJBvAXNTwQJsHWez/k/4LI5hcj6M5o4UCrw6bQOoelzCnhwYfxoqucMzkWkjmDCCn\nWqlYICrWQwKBgQCZL7NkaXhUq8L6pS6sKNY4wOjpgUCwSgIswKQav7MU+w4HYVpq\nJo1AzbtznyYZD/5DebC4S0BsLPF4SQh8yEij7JA2CtFNfj3r7nJj0CvLvLdEwRcR\nfnhkfuJ2CWxkKu5yv56sbm+cPdv6k0mNjOwBD2IQLvBasF6JgYeeYE9IAQKBgQC1\nPXAaO4my0bpqhDuzZVGoJB3C66Nh6+opyDRpJB7oSznlcq10kZQuWukxx1vp3tMi\nxh0rIqo9pJKkFbiRnER/TzWSoJ/YyGkabY3qcVh/kQLVFqWHHejN13CE9/kDEEY+\nH4o61RBnCoLNb0sw9pcM0f2zytnxMpmwvd54MEfCrwKBgFAVO7tRwAf+N0Jin2C1\nGHC8ncrhXPA3aRDqSPvoCrzO4yUdrPBvssTxAL09cL7oUjX9dXWC6tbIjV5k+jvp\nnysUJsfzfmfKK9SpQVU0zAsvetFvLTkte+QRZ+OQLgJrIBli0zHyp5IGa9N6zPoj\nlFB1XfAJoH7D7hh35h+51vhq\n-----END PRIVATE KEY-----\n",
-  "client_email": "darshi@petpooja-xn9h.iam.gserviceaccount.com",
-  "client_id": "110229488787199415958",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/darshi%40petpooja-xn9h.iam.gserviceaccount.com",
-  "universe_domain": "googleapis.com"
+
 }
