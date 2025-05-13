@@ -1,0 +1,49 @@
+{
+  "name": "PaymentIntent",
+  "auto": true,
+  "contexts": ["booking_confirmed"],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "user.payment",
+      "affectedContexts": [
+        {
+          "name": "awaiting_payment",
+          "lifespan": 5
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": ["Redirecting to payment...", "Please proceed to complete the payment."]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": ["Payment processing started. Please wait."]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    { "data": [{ "text": "Proceed to payment" }], "isTemplate": false },
+    { "data": [{ "text": "Pay now" }], "isTemplate": false },
+    { "data": [{ "text": "I want to pay" }], "isTemplate": false },
+    { "data": [{ "text": "Go to payment" }], "isTemplate": false },
+    { "data": [{ "text": "Make payment" }], "isTemplate": false },
+    { "data": [{ "text": "Checkout" }], "isTemplate": false },
+    { "data": [{ "text": "Continue to pay" }], "isTemplate": false },
+    { "data": [{ "text": "Complete payment" }], "isTemplate": false },
+    { "data": [{ "text": "I’m ready to pay" }], "isTemplate": false },
+    { "data": [{ "text": "Confirm and pay" }], "isTemplate": false }
+  ],
+  "templates": [],
+  "inputContextNames": ["booking_confirmed"],
+  "outputContexts": ["awaiting_payment"]
+}

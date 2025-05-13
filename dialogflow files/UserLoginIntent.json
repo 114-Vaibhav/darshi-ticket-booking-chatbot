@@ -1,0 +1,51 @@
+{
+  "name": "UserLoginIntent",
+  "auto": true,
+  "contexts": ["awaiting_login"],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "user.login",
+      "affectedContexts": [
+        {
+          "name": "login_successful",
+          "lifespan": 5
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": ["Login successful! You're now signed in."]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": ["Welcome back! You’ve successfully logged in."]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    { "data": [{ "text": "I want to log in" }], "isTemplate": false },
+    { "data": [{ "text": "Sign in with Google" }], "isTemplate": false },
+    { "data": [{ "text": "Login with my account" }], "isTemplate": false },
+    { "data": [{ "text": "Authenticate me" }], "isTemplate": false },
+    { "data": [{ "text": "Log me in" }], "isTemplate": false },
+    { "data": [{ "text": "Access my account" }], "isTemplate": false },
+    { "data": [{ "text": "Let me sign in" }], "isTemplate": false },
+    { "data": [{ "text": "Continue with Google" }], "isTemplate": false },
+    { "data": [{ "text": "Use my Google account to login" }], "isTemplate": false },
+    { "data": [{ "text": "Connect my account" }], "isTemplate": false },
+    { "data": [{ "text": "Log into the system" }], "isTemplate": false },
+    { "data": [{ "text": "Google login" }], "isTemplate": false }
+  ],
+  "templates": [],
+  "inputContextNames": ["awaiting_login"],
+  "outputContexts": ["login_successful"]
+}

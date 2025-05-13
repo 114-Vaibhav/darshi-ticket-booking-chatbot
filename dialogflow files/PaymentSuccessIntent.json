@@ -1,0 +1,35 @@
+{
+  "name": "PaymentSuccessIntent",
+  "displayName": "PaymentSuccessIntent",
+  "priority": 500000,
+  "webhookState": "WEBHOOK_STATE_ENABLED",
+  "mlDisabled": false,
+  "contexts": [
+    "awaiting_payment"
+  ],
+  "events": [],
+  "trainingPhrases": [
+    { "type": "EXAMPLE", "parts": [{ "text": "payment done" }] },
+    { "type": "EXAMPLE", "parts": [{ "text": "i have paid" }] },
+    { "type": "EXAMPLE", "parts": [{ "text": "payment successful" }] },
+    { "type": "EXAMPLE", "parts": [{ "text": "done with payment" }] },
+    { "type": "EXAMPLE", "parts": [{ "text": "completed the payment" }] },
+    { "type": "EXAMPLE", "parts": [{ "text": "paid now" }] },
+    { "type": "EXAMPLE", "parts": [{ "text": "payment is done" }] },
+    { "type": "EXAMPLE", "parts": [{ "text": "payment completed" }] },
+    { "type": "EXAMPLE", "parts": [{ "text": "i paid already" }] },
+    { "type": "EXAMPLE", "parts": [{ "text": "finished paying" }] },
+    { "type": "EXAMPLE", "parts": [{ "text": "just paid" }] },
+    { "type": "EXAMPLE", "parts": [{ "text": "booking done" }] }
+  ],
+  "action": "PaymentSuccessIntent",
+  "parameters": [],
+  "messages": [],
+  "defaultResponsePlatforms": {},
+  "rootFollowupIntentName": "",
+  "followupIntentInfo": [],
+  "inputContextNames": [],
+  "outputContexts": [],
+  "resetContexts": false,
+  "endInteraction": false
+}

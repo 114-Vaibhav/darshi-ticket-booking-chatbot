@@ -1,0 +1,428 @@
+{
+  "name": "indian_state",
+  "isOverridable": true,
+  "isEnum": false,
+  "automatedExpansion": false,
+  "entries": [
+    {
+      "value": "Andhra Pradesh",
+      "synonyms": [
+        "AP",
+        "A.P.",
+        "Andhra",
+        "Andhra Pradesh State",
+        "AP State",
+        "AndhraPradesh",
+        "Andhrapradesh",
+        "A P",
+        "Andhra-Pradesh",
+        "State of Andhra"
+      ]
+    },
+    {
+      "value": "Arunachal Pradesh",
+      "synonyms": [
+        "AR",
+        "A.R.",
+        "Arunachal",
+        "Arunachal Pradesh State",
+        "AR State",
+        "ArunachalPradesh",
+        "Arunachalpradesh",
+        "A P",
+        "Arunachal-Pradesh",
+        "State of Arunachal"
+      ]
+    },
+    {
+      "value": "Assam",
+      "synonyms": [
+        "AS",
+        "A.S.",
+        "Assam State",
+        "AS State",
+        "Axom",
+        "Assamese State",
+        "State of Assam",
+        "A S",
+        "Asom",
+        "Eastern State"
+      ]
+    },
+    {
+      "value": "Bihar",
+      "synonyms": [
+        "BR",
+        "B.R.",
+        "Bihar State",
+        "BR State",
+        "State of Bihar",
+        "BIHAR",
+        "B I H A R",
+        "Bihari State",
+        "North Bihar",
+        "Bihar Pradesh"
+      ]
+    },
+    {
+      "value": "Chhattisgarh",
+      "synonyms": [
+        "CG",
+        "C.G.",
+        "Chattisgarh",
+        "Chhattisgarh State",
+        "CG State",
+        "Chhatishgarh",
+        "Chhatisgarh",
+        "C G",
+        "Chhattsgarh",
+        "State of Chhattisgarh"
+      ]
+    },
+    {
+      "value": "Goa",
+      "synonyms": [
+        "GA",
+        "G.A.",
+        "Goa State",
+        "GA State",
+        "State of Goa",
+        "GOA",
+        "G O A",
+        "Goan State",
+        "West Coast State",
+        "Konkan Goa"
+      ]
+    },
+    {
+      "value": "Gujarat",
+      "synonyms": [
+        "GJ",
+        "G.J.",
+        "Gujrat",
+        "Gujarat State",
+        "GJ State",
+        "State of Gujarat",
+        "GUJARAT",
+        "G U J A R A T",
+        "Gujju State",
+        "Western State"
+      ]
+    },
+    {
+      "value": "Haryana",
+      "synonyms": [
+        "HR",
+        "H.R.",
+        "Haryana State",
+        "HR State",
+        "Hariyana",
+        "State of Haryana",
+        "HARAYANA",
+        "North State",
+        "Gurgaon Haryana",
+        "Haryanvi Region"
+      ]
+    },
+    {
+      "value": "Himachal Pradesh",
+      "synonyms": [
+        "HP",
+        "H.P.",
+        "Himachal",
+        "Himachal Pradesh State",
+        "HP State",
+        "HimachalPradesh",
+        "Mountain State",
+        "North Hills",
+        "Shimla State",
+        "Himachali Region"
+      ]
+    },
+    {
+      "value": "Jharkhand",
+      "synonyms": [
+        "JH",
+        "J.H.",
+        "Jharkand",
+        "Jharkhand State",
+        "JH State",
+        "State of Jharkhand",
+        "JHARKHAND",
+        "J H",
+        "Jharkandi State",
+        "Eastern Tribal State"
+      ]
+    },
+    {
+      "value": "Karnataka",
+      "synonyms": [
+        "KA",
+        "K.A.",
+        "Karnataka State",
+        "KA State",
+        "Kannada State",
+        "Bangalore Karnataka",
+        "Karunadu",
+        "Karnatak",
+        "South Karnataka",
+        "State of Karnataka"
+      ]
+    },
+    {
+      "value": "Kerala",
+      "synonyms": [
+        "KL",
+        "K.L.",
+        "Kerala State",
+        "KL State",
+        "Keralam",
+        "Keral",
+        "Malayalam Nadu",
+        "State of Kerala",
+        "God's Own Country",
+        "Malabar"
+      ]
+    },
+    {
+      "value": "Madhya Pradesh",
+      "synonyms": [
+        "MP",
+        "M.P.",
+        "Madhya",
+        "Madhya Pradesh State",
+        "MP State",
+        "Madhyapradesh",
+        "Central India",
+        "State of MP",
+        "Heart of India",
+        "M P"
+      ]
+    },
+    {
+      "value": "Maharashtra",
+      "synonyms": [
+        "MH",
+        "M.H.",
+        "Maharastra",
+        "Maharashtra State",
+        "MH State",
+        "State of Maharashtra",
+        "Mumbai Maharashtra",
+        "MAHA",
+        "M H",
+        "Western State"
+      ]
+    },
+    {
+      "value": "Manipur",
+      "synonyms": [
+        "MN",
+        "M.N.",
+        "Manipur State",
+        "MN State",
+        "Manipur Pradesh",
+        "State of Manipur",
+        "Imphal Region",
+        "M N",
+        "Northeast State",
+        "Mani Pur"
+      ]
+    },
+    {
+      "value": "Meghalaya",
+      "synonyms": [
+        "ML",
+        "M.L.",
+        "Meghalaya State",
+        "ML State",
+        "Shillong Region",
+        "Hill State",
+        "M L",
+        "State of Meghalaya",
+        "Northeast Hills",
+        "Meg Halaya"
+      ]
+    },
+    {
+      "value": "Mizoram",
+      "synonyms": [
+        "MZ",
+        "M.Z.",
+        "Mizoram State",
+        "MZ State",
+        "Aizawl Region",
+        "Hill People State",
+        "Mizo",
+        "State of Mizoram",
+        "Mizo Hills",
+        "M Z"
+      ]
+    },
+    {
+      "value": "Nagaland",
+      "synonyms": [
+        "NL",
+        "N.L.",
+        "Nagaland State",
+        "NL State",
+        "Kohima Region",
+        "Naga Hills",
+        "State of Nagaland",
+        "Eastern Hills",
+        "N L",
+        "Nagaland India"
+      ]
+    },
+    {
+      "value": "Odisha",
+      "synonyms": [
+        "OD",
+        "O.D.",
+        "Orissa",
+        "Odisha State",
+        "OD State",
+        "State of Odisha",
+        "Eastern Coastal State",
+        "Bhubaneshwar Region",
+        "O D",
+        "Odia State"
+      ]
+    },
+    {
+      "value": "Punjab",
+      "synonyms": [
+        "PB",
+        "P.B.",
+        "Punjab State",
+        "PB State",
+        "Punjabi State",
+        "State of Punjab",
+        "Ludhiana Punjab",
+        "PUNJAB",
+        "P B",
+        "Five Rivers State"
+      ]
+    },
+    {
+      "value": "Rajasthan",
+      "synonyms": [
+        "RJ",
+        "R.J.",
+        "Rajasthan State",
+        "RJ State",
+        "RAJASTHAN",
+        "Desert State",
+        "State of Rajasthan",
+        "Rajputana",
+        "Jaipur Rajasthan",
+        "Western Desert"
+      ]
+    },
+    {
+      "value": "Sikkim",
+      "synonyms": [
+        "SK",
+        "S.K.",
+        "Sikkim State",
+        "SK State",
+        "State of Sikkim",
+        "Gangtok State",
+        "Eastern Himalayan",
+        "S K",
+        "Sikkim Himalayas",
+        "Northeast Sikkim"
+      ]
+    },
+    {
+      "value": "Tamil Nadu",
+      "synonyms": [
+        "TN",
+        "T.N.",
+        "Tamilnadu",
+        "Tamil Nadu",
+        "T N",
+        "T Nadu",
+        "Tamil Nadu State",
+        "T.Nadu",
+        "Tamizh Nadu",
+        "Tamizhnaadu"
+      ]
+    },
+    {
+      "value": "Telangana",
+      "synonyms": [
+        "TS",
+        "T.S.",
+        "Telengana",
+        "Telangana State",
+        "TS State",
+        "State of Telangana",
+        "Hyderabad Telangana",
+        "Southern State",
+        "T S",
+        "Telugu Telangana"
+      ]
+    },
+    {
+      "value": "Tripura",
+      "synonyms": [
+        "TR",
+        "T.R.",
+        "Tripura State",
+        "TR State",
+        "Agartala Region",
+        "T R",
+        "State of Tripura",
+        "North East Tripura",
+        "Tripuri Hills",
+        "Hill State"
+      ]
+    },
+    {
+      "value": "Uttar Pradesh",
+      "synonyms": [
+        "UP",
+        "U.P.",
+        "U Pradesh",
+        "Uttarpradesh",
+        "UP State",
+        "Uttar Pradesh",
+        "U.P State",
+        "U Prad",
+        "Ut Pradesh",
+        "Utter Pradesh"
+      ]
+    },
+    {
+      "value": "Uttarakhand",
+      "synonyms": [
+        "UK",
+        "U.K.",
+        "Uttarakhand State",
+        "UK State",
+        "Uttrakhand",
+        "Dehradun Region",
+        "Hilly State",
+        "State of Uttarakhand",
+        "U K",
+        "Kumaon Garhwal"
+      ]
+    },
+    {
+      "value": "West Bengal",
+      "synonyms": [
+        "WB",
+        "W.B.",
+        "West Bengal State",
+        "WB State",
+        "Paschim Banga",
+        "Bengal",
+        "Calcutta Region",
+        "Kolkata West Bengal",
+        "W B",
+        "Eastern State"
+      ]
+    }
+  ]
+}

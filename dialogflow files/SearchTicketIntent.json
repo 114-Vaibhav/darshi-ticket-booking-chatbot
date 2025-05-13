@@ -1,0 +1,82 @@
+{
+  "name": "SearchTicketIntent",
+  "auto": true,
+  "contexts": ["login_successful"],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "user.search.ticket",
+      "affectedContexts": [
+        {
+          "name": "display_ticket",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "name": "booking_id",
+          "dataType": "@sys.number",
+          "value": "$booking_id",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": ["Here are the ticket details for booking ID $booking_id."]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": ["Fetching booking info for ID $booking_id."]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "data": [
+        { "text": "Search ticket with ID " },
+        { "text": "12345", "alias": "booking_id", "meta": "@sys.number" }
+      ],
+      "isTemplate": false
+    },
+    {
+      "data": [
+        { "text": "Find booking " },
+        { "text": "67890", "alias": "booking_id", "meta": "@sys.number" }
+      ],
+      "isTemplate": false
+    },
+    {
+      "data": [
+        { "text": "Show ticket for booking ID " },
+        { "text": "11111", "alias": "booking_id", "meta": "@sys.number" }
+      ],
+      "isTemplate": false
+    },
+    {
+      "data": [
+        { "text": "Find ticket " },
+        { "text": "4321", "alias": "booking_id", "meta": "@sys.number" }
+      ],
+      "isTemplate": false
+    },
+    {
+      "data": [
+        { "text": "Booking ID is " },
+        { "text": "1010", "alias": "booking_id", "meta": "@sys.number" }
+      ],
+      "isTemplate": false
+    }
+  ],
+  "templates": [],
+  "inputContextNames": ["login_successful"],
+  "outputContexts": ["display_ticket"]
+}

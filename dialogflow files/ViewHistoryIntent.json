@@ -1,0 +1,49 @@
+{
+  "name": "ViewHistoryIntent",
+  "auto": true,
+  "contexts": ["login_successful"],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "user.view.history",
+      "affectedContexts": [
+        {
+          "name": "display_history",
+          "lifespan": 5
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": ["Here is your booking history.", "These are your past tickets."]
+        },
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": ["Fetched your booking records."]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    { "data": [{ "text": "Show my booking history" }], "isTemplate": false },
+    { "data": [{ "text": "View past tickets" }], "isTemplate": false },
+    { "data": [{ "text": "Show my past bookings" }], "isTemplate": false },
+    { "data": [{ "text": "List all my bookings" }], "isTemplate": false },
+    { "data": [{ "text": "Display my tickets" }], "isTemplate": false },
+    { "data": [{ "text": "History of my tickets" }], "isTemplate": false },
+    { "data": [{ "text": "What have I booked?" }], "isTemplate": false },
+    { "data": [{ "text": "Fetch my history" }], "isTemplate": false },
+    { "data": [{ "text": "Show what I booked" }], "isTemplate": false },
+    { "data": [{ "text": "Previous bookings" }], "isTemplate": false }
+  ],
+  "templates": [],
+  "inputContextNames": ["login_successful"],
+  "outputContexts": ["display_history"]
+}
